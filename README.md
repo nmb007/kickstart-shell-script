@@ -1,1 +1,3 @@
-# kickstart-shell-script
+# Kickstarter Script
+
+Only Compatible with Linux and Mac Machines!
