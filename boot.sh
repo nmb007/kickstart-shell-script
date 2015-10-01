@@ -2,6 +2,8 @@
 
 source ./utils.sh
 
+echo $project_name
+
 welcome=`cat ascii`
 echo "$welcome"
 
