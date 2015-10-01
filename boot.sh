@@ -25,7 +25,7 @@ source ./utils.sh
   # Moving back all files from that 'temp' folder to our main working folder    
   shopt -s dotglob nullglob    # To make sure hidden files are included as well
   mv $tmp_git_dir/* $current_path/
-  rm -rf $tmp_git_dir # Remove temporary folder and files in it
+  rm -rf $tmp_git_dir # Remove that temporary folder
 
   render_message 0 "status" "Creating and assigning permissions to directories..."
   cd $full_path
