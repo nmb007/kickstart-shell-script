@@ -4,22 +4,7 @@ source ./utils.sh
 
   current_path=$(pwd)
   #echo $current_path
-        
-  render_message 1 "input" "1. Git repository (example: git@git.company.com:project/name):"
-  read answer
-  git_repo=${answer}
-  #echo $git_repo
-
-  render_message 1 "input" "2. MySQL database name: (same as you entered in config-custom.yaml file)"
-  read answer
-  database_name=${answer}
-  #echo $database_name
-
-  render_message 1 "input" "3. MySQL user (root) password: (same as you entered in config-custom.yaml file)"
-  read answer
-  db_root_password=${answer}
-  #echo $db_root_password    
-
+  
   full_path=$current_path
   #echo $full_path
   
