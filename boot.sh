@@ -57,4 +57,4 @@ source ./utils.sh
   render_message 0 "status" "Initializing Sass Compilation, Merging Directories"
   ./yiic deploy sass merge-web gen-js mini-js
 
-  render_message 0 "heading" "Setup is now completed"
+  render_message 0 "heading" "Application setup has been completed"
