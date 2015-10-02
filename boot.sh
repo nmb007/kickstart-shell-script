@@ -2,6 +2,11 @@
 
 source ./utils.sh
 
+  # receiving parameters
+  git_repo=$1
+  database_name=$2
+  db_root_password=$3
+
   current_path=$(pwd)
   #echo $current_path
   
