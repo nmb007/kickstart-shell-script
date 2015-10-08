@@ -7,9 +7,9 @@ source ./utils.sh
   database_name=$2
   db_root_password=$3
 
-  echo $git_repo
-  echo $database_name
-  echo $db_root_password
+  #echo $git_repo
+  #echo $database_name
+  #echo $db_root_password
 
   current_path=$(pwd)
   #echo $current_path
