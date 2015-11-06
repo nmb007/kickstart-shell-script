@@ -38,7 +38,7 @@ source ./utils.sh
 
   render_message 0 "status" "Creating and assigning permissions to directories..."
   cd $full_path
-  sudo mkdir -p -m 0777 web/assets files/runtime
+  sudo mkdir -p -m 0777 web/assets files/runtime web/css
   sudo chmod 0777 files web
   sudo chown -R $USER:www-data web files
 
